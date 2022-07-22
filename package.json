@@ -1,0 +1,21 @@
+{
+  "name": "appsmith-supabase-auth",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "m:make": "knex --knexfile ./knexfile.js migrate:make --stub jsdoc.stub",
+    "m:latest": "knex --knexfile ./knexfile.js migrate:latest",
+    "m:rollback": "knex --knexfile ./knexfile.js migrate:rollback",
+    "m:up": "knex --knexfile ./knexfile.js migrate:up",
+    "m:down": "knex --knexfile ./knexfile.js migrate:down",
+    "s:make": "knex --knexfile ./knexfile.js seed:make",
+    "s:run": "knex --knexfile ./knexfile.js seed:run"
+  },
+  "author": "Andrew Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "knex": "^2.2.0",
+    "pg": "^8.7.3"
+  }
+}
