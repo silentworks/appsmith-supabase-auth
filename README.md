@@ -25,7 +25,7 @@ The "CONNECTION_STRING" can be found inside the Supabase Dashboard by going to [
 ### Run database migrations
 
 ```sh
-npm m:up
+npm m:latest
 ```
 
 ### Run the seed data
